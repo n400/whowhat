@@ -12,4 +12,4 @@ $ gulp
 ```
 You should then get an external IP address for enjoying synchronized browsing and live reload across devices and browsers. Or you can just visit localhost:3000.
 
-There are lots of useful documentation and tutorials on the [harpjs website](http://harpjs.com/docs/).
+You can find lots of useful documentation and tutorials on the [harpjs website](http://harpjs.com/docs/).
