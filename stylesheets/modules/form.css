@@ -1,0 +1,1 @@
+form{width:100%}input{font-size:20px;padding:15px;border-radius:6px;margin:1%;border:1px solid #98a9df;background-color:#fffccc;}input:active,input:hover,input:focus{box-shadow:#3b5ecf 0 0 25px;background-color:transparent}input[type=email]{width:76%}input[type=submit]{width:20%}

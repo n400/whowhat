@@ -1,0 +1,32 @@
+{
+    "data": {
+        "title": "data",
+        "description": "optional description",
+        "thumbnail": "http://lorempixel.com/g/400/100/abstract/"
+    },
+    "dev": {
+        "title": "dev",
+        "description": "optional description",
+        "thumbnail": "http://lorempixel.com/g/400/100/abstract/"
+    },
+    "design": {
+        "title": "design",
+        "description": "optional description",
+        "thumbnail": "http://lorempixel.com/g/400/100/abstract/"
+    },
+    "writing": {
+        "title": "writing",
+        "description": "optional description",
+        "thumbnail": "http://lorempixel.com/g/400/100/abstract/"
+    },
+    "art": {
+        "title": "art",
+        "description": "optional description",
+        "thumbnail": "http://lorempixel.com/g/400/100/abstract/"
+    },
+    "contact": {
+        "title": "contact",
+        "description": "optional description",
+        "thumbnail": "http://lorempixel.com/g/400/100/abstract/"
+    }
+}

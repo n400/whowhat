@@ -1,0 +1,15 @@
+{
+    "basicAuth": [],
+    "globals": {
+        "site_title": "site title",
+        "tagline": "site tagline",
+        "author": "site author",
+        "description": "site description",
+        "site_url": "/",
+        "disqus": "n400",
+        "formspree": "contractparty@gmail.com",
+        "analytics_account": [],
+        "menuLabel": "HomeLabel",
+        "thumbnail": ""
+    }
+}

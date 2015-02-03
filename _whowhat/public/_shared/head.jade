@@ -1,0 +1,11 @@
+doctype
+html(lang="en", class="#{ current.path.join('-') } no-js")
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=3.0')
+    title= locals.title ? title + " | " + site_title : site_title
+    link(href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Droid+Sans|PT+Sans|Oswald:700|Open+Sans|Slabo+27px|Roboto|Roboto+Condensed:400,700|Open+Sans+Condensed:700,300|Vollkorn' rel='stylesheet' type='text/css')
+    link(rel="stylesheet" href="/stylesheets/main.css")
+    link(rel="shortcut icon" href="/images/favicon.ico")
+    meta(name="description" content="#{ description }")
+    script(type='text/javascript' src='/js/modernizr.js')

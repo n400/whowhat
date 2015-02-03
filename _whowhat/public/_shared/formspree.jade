@@ -1,0 +1,8 @@
+.wrap
+    form(action="http://formspree.io/#{ formspree }" method="post")
+        input(type="text" name="name" style="display:none")
+        input(type="email" name="_replyto" placeholder="please enter your email")
+        input(type="submit" value="Send")
+        input(type="text" name="_gotcha" style="display:none")
+        input(type="hidden" name="_subject" value="New form submission!")
+        input(type="hidden" name="_next" value="http://site.io/thanks.html")

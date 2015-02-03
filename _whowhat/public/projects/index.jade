@@ -1,0 +1,19 @@
+.wrap
+    //- TODO:
+        //1. refactor this (projects/index) and _shared/panels into one "teasers" function in partials so that it can also be used as a sidebar widget or something
+        //2. use it in: panels, masonry/gallery
+        //h1 gallery
+
+    - function teaser(content) {
+        - if (content.indexOf("<!-- more -->") > -1) return content.split("<!-- more -->")[0];
+        - else if (content.indexOf("<!--more-->") > -1) return content.split("<!--more-->")[0];
+        - else return;
+        - }
+    //-    - else if (content.indexOf("</img>") > -1) return content.split("<img>")[1].split("</img>")[0];
+        //  would return first image or defaults to all content.
+        // or could return description from _data.json so that the single project can open with an image without that image appearing in the index
+    - for project, slug in public.projects._data
+          if(project.title && project.published!==false)
+              a(href="../projects/#{ slug }")
+                h2= project.title
+                img(src="#{ project.thumbnail || thumbnail }")

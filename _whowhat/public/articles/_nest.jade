@@ -1,0 +1,13 @@
+//- this is the single post page template
+
+.wrap
+    h1= title
+    h2: time= date
+
+    != yield
+        //- yields body of post
+
+        //- TODO: .google-authorship
+            != partial("../_shared/author")
+
+    != partial("../_shared/comments")

@@ -1,0 +1,48 @@
+
+/*=============================
+VARIABLES
+=============================*/
+trueblack = #000
+truewhite = #fff
+black = rgba(0,0,0,.87)
+white = rgba(255,255,255,.87)
+
+@import 'base/normalize'
+@import 'base/reset' //custom resets outside normalize
+@import 'base/typography/*'
+@import './modules/*'
+
+
+/*=============================
+TEMPORARY SHAME STYLES / HACKS
+=============================*/
+
+html, body, .section
+  height 100%
+  width 100%
+  min-height 100%
+  margin 0
+  padding 0
+
+.wrap
+  max-width 30em //add/check support for IE
+  margin 0 auto
+
+
+//to temporarily center the placeholders. needs to be made mobile first. add your content first though.
+section, #header-scroll, nav
+  padding-top 200px
+
+
+body
+  font-family 'roboto condensed' //Source+Sans+Pro|Droid+Sans|PT+Sans|Oswald:700|Open+Sans|Slabo+27px|Roboto|Roboto+Condensed:400,700|Open+Sans+Condensed:700,300|Vollkorn
+//h1,h2,h3,h4,h5, input[type=submit], .thick
+//  font-family bigjohn
+.slim
+  font-family slimjoe
+
+footer
+  text-align center
+  padding 1rem 0
+
+

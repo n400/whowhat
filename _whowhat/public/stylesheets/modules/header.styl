@@ -1,0 +1,61 @@
+#header-scroll, h1
+  -ms-transition all 0.3s ease-out
+  -moz-transition all 0.3s ease-out
+  -webkit-transition all 0.3s ease-out
+  -o-transition all 0.3s ease-out
+  transition all 0.3s ease-out
+
+#header-scroll
+  background-color white
+  position fixed
+  height 100%
+  left 0
+  top 0
+  width 100%
+  a
+    color white
+  h1
+    text-align center
+    background black
+    margin-top -7px
+    text-transform uppercase
+  nav
+    top 0
+    ul
+      margin 0 auto
+      list-style none
+      text-align center
+      li
+        display inline-block
+        a
+          color black
+          padding 10px
+          font-size 1rem
+          text-decoration none
+          font-weight bold
+          transition all 0.2s ease
+          &:hover
+            color #85C2FF
+          &.active
+            color red
+  &.small
+    padding 0
+    margin 0
+    height auto
+    background: transparent
+    a
+      color black
+    h1
+      background transparent
+      float left
+      margin 0
+      height auto
+      font-size 1rem
+      text-decoration none
+      font-weight bold
+      display block
+    h1,nav
+      display inline-block
+      padding 20px
+    nav
+      float right

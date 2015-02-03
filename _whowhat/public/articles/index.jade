@@ -1,0 +1,26 @@
+.wrap
+    //- refactor all this to use _articles.jade
+
+    - function excerpt(content) {
+        - if (content.indexOf("<!-- more -->") > -1) return content.split("<!-- more -->")[0];
+        - else if (content.indexOf("<!--more-->") > -1) return content.split("<!--more-->")[0];
+        - else return;
+    //- options to return first paragraph or entire article as defaults. Currently returns description from _data.json so that the single post can open with an image without that image appearing on the home page. deal with this later with respect to the content
+        //    - else if (content.indexOf("</p>") > -1) return content.split("<p>")[1].split("</p>")[0];
+        //    - else if(content.indexOf("<!-- more -->") == -1) return content;
+    - }
+    - for article, slug in public.articles._data
+        if(article.title && article.published!==false)
+            .panel
+                a(href="../articles/#{ slug }")
+                        h2= article.title
+                        div.excerpt: a(href="../articles/#{ slug }")
+                            if excerpt(partial("../articles/" + slug))
+                                != excerpt(partial("../articles/" + slug))
+                            else if article.description
+                                p= article.description
+                            h4: a(href="../articles/#{ slug }")
+                                time= article.date
+                                span.readmore
+                                    &nbsp; Read More »
+

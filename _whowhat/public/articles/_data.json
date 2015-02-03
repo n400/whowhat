@@ -1,0 +1,44 @@
+{
+    "lorem-markdownum": {
+        "title": "Lorem Markdownum Dec.",
+        "categories": ["node"],
+        "tags": ["css", "hello"],
+        "author": "articles/_data.json author",
+        "date": "2014-12-26",
+        "thumbnail": "../images/richterblue.jpg",
+        "description": "For rizzle ipsum, pellentesque egizzle tortor. Tellivizzle away urna, luctus et, tristique stuff, sollicitudizzle nulla donizzle. Pharetra, sheezy egestas facilisis pizzle, yo justo fo shizzle velizzle, fringilla libero its fo rizzle ac purizzle. Sive furor ipse saevi sequitur est introrsus. Nox pudorem Erigonen vultu repurgato Peparethos..."
+    },
+    "console2": {
+        "title": "Console 2 Jan.",
+        "author": "articles/_data.json author",
+        "categories" : ["node"],
+        "tags"       : ["css", "design"],
+        "date"       : "2015-01-23",
+        "thumbnail": "../images/colors.jpg"
+    },
+    "sive-ipse-timeri": {
+        "title": "Sive Ipse Nov.",
+        "author": "articles/_data.json author",
+        "categories" : ["node"],
+        "tags"       : ["css", "design"],
+        "date"       : "2014-11-25",
+        "thumbnail": "../images/richtergreen.jpg"
+    },
+    "magnizzle": {
+        "title": "magnizzle Oct.",
+        "author": "articles/_data.json author",
+        "categories" : ["node"],
+        "tags"       : ["css", "design"],
+        "date"       : "2014-10-23",
+        "thumbnail": "../images/richterred.jpg"
+    },
+    "debugging"  : {
+        "title"      : "Debugging Sept.",
+        "author": "articles/_data.json author",
+        "categories" : ["node"],
+        "tags"       : ["css", "design"],
+        "date"       : "2014-09-25",
+        "thumbnail": "../images/richterred2.jpg"
+    }
+
+}

@@ -1,0 +1,22 @@
+!= partial("_shared/header")
+
+section#1
+    h1 Who &
+        span.slim
+            |  What
+    h2.slim #{ tagline }
+section#2
+    .wrap
+        h1 Get something for free!
+        != partial("/_shared/formspree")
+section#3
+    .wrap
+        h1 Third
+section#4
+    .wrap
+        h1 Recent Posts
+        != partial("_shared/articles", { postlimit: 1})
+section#5
+    .wrap
+        h1 Contact
+        != partial("/_shared/formspree")
