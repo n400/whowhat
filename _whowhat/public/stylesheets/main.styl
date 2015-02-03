@@ -9,7 +9,7 @@ white = rgba(255,255,255,.87)
 
 @import 'base/normalize'
 @import 'base/reset' //custom resets outside normalize
-@import 'base/typography/*'
+@import 'base/typography/lazy'
 @import './modules/*'
 
 
@@ -25,7 +25,7 @@ html, body, .section
   padding 0
 
 .wrap
-  max-width 30em //add/check support for IE
+  max-width 35em //add/check support for IE
   margin 0 auto
 
 
@@ -36,10 +36,12 @@ section, #header-scroll, nav
 
 body
   font-family 'roboto condensed' //Source+Sans+Pro|Droid+Sans|PT+Sans|Oswald:700|Open+Sans|Slabo+27px|Roboto|Roboto+Condensed:400,700|Open+Sans+Condensed:700,300|Vollkorn
-//h1,h2,h3,h4,h5, input[type=submit], .thick
+//h1,h2,h3,h4,h5, input[type=submit],
+//.thick
 //  font-family bigjohn
-.slim
-  font-family slimjoe
+//.slim, h1
+//  font-family slimjoe
+//  letter-spacing 0.4rem
 
 footer
   text-align center

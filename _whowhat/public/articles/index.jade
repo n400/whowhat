@@ -12,14 +12,14 @@
     - for article, slug in public.articles._data
         if(article.title && article.published!==false)
             .panel
-                a(href="../articles/#{ slug }")
+                a(href="#{ base_url }/articles/#{ slug }")
                         h2= article.title
-                        div.excerpt: a(href="../articles/#{ slug }")
+                        div.excerpt: a(href="#{ base_url }/articles/#{ slug }")
                             if excerpt(partial("../articles/" + slug))
                                 != excerpt(partial("../articles/" + slug))
                             else if article.description
                                 p= article.description
-                            h4: a(href="../articles/#{ slug }")
+                            h4: a(href="#{ base_url }/articles/#{ slug }")
                                 time= article.date
                                 span.readmore
                                     &nbsp; Read More »

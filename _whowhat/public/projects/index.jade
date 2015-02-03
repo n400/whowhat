@@ -14,6 +14,6 @@
         // or could return description from _data.json so that the single project can open with an image without that image appearing in the index
     - for project, slug in public.projects._data
           if(project.title && project.published!==false)
-              a(href="../projects/#{ slug }")
+              a(href="#{ base_url }/projects/#{ slug }")
                 h2= project.title
                 img(src="#{ project.thumbnail || thumbnail }")
