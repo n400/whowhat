@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f5a3d45-1954-4038-abc4-5540f3d76e67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_whowhat/public/articles/_data.json" afterPath="$PROJECT_DIR$/_whowhat/public/articles/_data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_whowhat/public/_layout.jade" afterPath="$PROJECT_DIR$/_whowhat/public/_layout.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/art.html" afterPath="$PROJECT_DIR$/projects/art.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_whowhat/public/_shared/articles.jade" afterPath="$PROJECT_DIR$/_whowhat/public/_shared/articles.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/console2.html" afterPath="$PROJECT_DIR$/articles/console2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/contact.html" afterPath="$PROJECT_DIR$/projects/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/data.html" afterPath="$PROJECT_DIR$/projects/data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/debugging.html" afterPath="$PROJECT_DIR$/articles/debugging.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/design.html" afterPath="$PROJECT_DIR$/projects/design.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/dev.html" afterPath="$PROJECT_DIR$/projects/dev.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_whowhat/harp.json" afterPath="$PROJECT_DIR$/_whowhat/harp.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_whowhat/public/_shared/head.jade" afterPath="$PROJECT_DIR$/_whowhat/public/_shared/head.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/index.html" afterPath="$PROJECT_DIR$/articles/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/index.html" afterPath="$PROJECT_DIR$/projects/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_whowhat/public/index.jade" afterPath="$PROJECT_DIR$/_whowhat/public/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_whowhat/public/articles/index.jade" afterPath="$PROJECT_DIR$/_whowhat/public/articles/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_whowhat/public/projects/index.jade" afterPath="$PROJECT_DIR$/_whowhat/public/projects/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/lorem-markdownum.html" afterPath="$PROJECT_DIR$/articles/lorem-markdownum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/magnizzle.html" afterPath="$PROJECT_DIR$/articles/magnizzle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/main.css" afterPath="$PROJECT_DIR$/stylesheets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_whowhat/public/stylesheets/main.styl" afterPath="$PROJECT_DIR$/_whowhat/public/stylesheets/main.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/sive-ipse-timeri.html" afterPath="$PROJECT_DIR$/articles/sive-ipse-timeri.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/writing.html" afterPath="$PROJECT_DIR$/projects/writing.html" />
-    </list>
+    <list default="true" id="4f5a3d45-1954-4038-abc4-5540f3d76e67" name="Default" comment="" />
     <ignored path="whowhat.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
