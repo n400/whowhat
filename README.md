@@ -6,7 +6,7 @@ The source files are in _workblog. The rest are just the compiled static files t
 
 ```
 $ git clone https://github.com/n400/whowhat.git
-$ cd workblog/_workblog
+$ cd whowhat/_whowhat
 $ npm install
 $ gulp
 ```
